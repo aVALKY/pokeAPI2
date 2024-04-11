@@ -23,9 +23,9 @@ class Database {
 
     public static function getPokemon(){
         $db = Database::connect();
-        $executeRequete = $db->query("SELECT * FROM pokemon;");
+        $executerRequeteSQL = $db->query("SELECT * FROM pokemon;");
 
-        $recuperePokemon = $executeRequete;
+        $recuperePokemon = $executerRequeteSQL;
 
         return $recuperePokemon;
 
