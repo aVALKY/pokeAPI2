@@ -19,10 +19,17 @@
 
             $appeleDeLaFunctionGetPokemon = Database::getPokemon();
 
-            while ($poke = $appeleDeLaFunctionGetPokemon->fetch()) {
-                echo'<div id="containerImgPokemon"><img src = "assets/images/'.$poke['img_poke'].'"></div>';
+            while ($pokemon = $appeleDeLaFunctionGetPokemon->fetch()) {
+
+                echo '<div id="containerImgPokemon">
+                <a href="detailsPage.php?id=' . $pokemon['num_poke'] . '">
+                <img src="assets/images/'. $pokemon['img_poke'].'">
+                </a>
+                </div>';
                 
-                
+
+
+
                 // echo'<td>'.$poke['nom'].'</td>';
                 // echo'<td>'.$poke['taille'].'</td>';
                 // echo'<td>'.$poke['description'].'</td>';

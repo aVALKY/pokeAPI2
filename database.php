@@ -31,6 +31,19 @@ class Database {
 
     }
 
+    public static function getPokemonById($infosPokemon) {
+        $db = Database::connect();
+        $executerRequeteSQL = ("SELECT * FROM pokemon WHERE num_poke = :id_page; ");
+
+        $requete = $db->prepare($executerRequeteSQL);
+        $requete->execute(array('id_page'=>$infosPokemon));
+
+        $page = $requete;
+
+        return $page;
+
+    }
+
 }
 
 ?>
