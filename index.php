@@ -22,7 +22,7 @@
             while ($pokemon = $appeleDeLaFunctionGetPokemon->fetch()) {
 
                 echo '<div id="containerImgPokemon">
-                <a href="detailsPage.php?id=' . $pokemon['num_poke'] . '">
+                <a href="detailsPage.php?id=' . $pokemon['num_poke']. '">
                 <img src="assets/images/'. $pokemon['img_poke'].'">
                 </a>
                 </div>';

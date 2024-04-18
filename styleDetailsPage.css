@@ -1,0 +1,49 @@
+body{
+    background-color: #111927;
+}
+#containerBoutonRetour{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 20px;
+}
+#BoutonRetour {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #385BA8;
+    text-decoration: none;
+}
+#BoutonRetour:hover{
+    color: #FFFF00;
+}
+
+#containerImgPokemon {
+    border: 3px #006DB3 solid;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+#containerInfoPokemon {
+}
+
+#nomPokemon {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.infosPokemonText{
+    color: #FFFF00;
+    font-size: 30px;
+    padding: 0px 10px;
+}
