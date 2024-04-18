@@ -38,3 +38,90 @@ body {
 #containerImgPokemon:hover {
     border: 3px #FFCC01 solid;
 }
+
+#containerImageDresseur{
+    padding: 20px;
+}
+#imageDresseur{
+    width: 300px;
+}
+#titreConnexion {
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+#containerBoutonRetour{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 20px;
+}
+#BoutonRetour {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #385BA8;
+    text-decoration: none;
+}
+#BoutonRetour:hover{
+    color: #FFFF00;
+}
+#containerImageEtFrom{
+    display: flex;
+    justify-content: space-evenly;
+}
+#containerInscription{
+    padding-top: 100px;
+}
+.renseignement{
+    color: #FFCC01;
+    font-size: 20px;
+
+}
+#titreInscription{
+    color: #006DB3;
+    padding: 10px;
+}
+#nom{
+    padding: 5px;
+    border: 2px solid #FFCC01;
+    border-radius: 4px;
+    background-color: #006DB3;
+    color: #FFCC01;
+    margin: 5px;
+}
+#prenom{
+    padding: 5px;
+    border: 2px solid #FFCC01;
+    border-radius: 4px;
+    background-color: #006DB3;
+    color: #FFCC01;
+    margin: 5px;
+}
+#email{
+    padding: 5px;
+    border: 2px solid #FFCC01;
+    border-radius: 4px;
+    background-color: #006DB3;
+    color: #FFCC01;
+    margin: 5px;
+}
+#motdepasse{
+    padding: 5px;
+    border: 2px solid #FFCC01;
+    border-radius: 4px;
+    background-color: #006DB3;
+    color: #FFCC01;
+    margin: 5px;
+}
+#inscription{
+    padding: 8px;
+    border: 2px solid #FFCC01;
+    border-radius: 4px;
+    background-color: #006DB3;
+    color: #FFCC01;
+    margin-top: 20px;
+    margin-left: 100px;
+    cursor: pointer;
+    font-size: 15px;
+}

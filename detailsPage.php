@@ -11,7 +11,6 @@
         <nav>
             <ul id="containerBoutonRetour">
                 <li><a id="BoutonRetour" href="index.php">Revenir au Pokemon</a></li>
-                <!-- Autres liens de navigation ici si nécessaire -->
             </ul>
         </nav>
     </header>

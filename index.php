@@ -12,6 +12,12 @@
         <img id="imgTitle" src="assets/pokemonpng.png" alt="imgPokemon">
     </div>
 
+        <nav>
+            <ul id="containerBoutonRetour">
+                <li><a id="BoutonRetour" href="inscription.php">Creer ton equipe de 6 !</a></li>
+            </ul>
+        </nav>
+
     <div id="containerPokemon">
         <?php
 
@@ -21,28 +27,12 @@
 
             while ($pokemon = $appeleDeLaFunctionGetPokemon->fetch()) {
 
-                echo '<div id="containerImgPokemon">
+                echo '<div id="containerImgPokemon"> 
                 <a href="detailsPage.php?id=' . $pokemon['num_poke']. '">
                 <img src="assets/images/'. $pokemon['img_poke'].'">
                 </a>
                 </div>';
                 
-
-
-
-                // echo'<td>'.$poke['nom'].'</td>';
-                // echo'<td>'.$poke['taille'].'</td>';
-                // echo'<td>'.$poke['description'].'</td>';
-                // echo'<td>'.$poke['hp'].'</td>';
-                // echo'<td>'.$poke['attack'].'</td>';
-                // echo'<td>'.$poke['defence'].'</td>';
-                // echo'<td>'.$poke['vitesse'].'</td>';
-                // echo'<td>'.$poke['attack_spe'].'</td>';
-                // echo'<td>'.$poke['defence_spe'].'</td>';
-                // echo'<td>'.$poke['generation'].'</td>';
-                // echo'<td>'.$poke['img_poke'].'</td>';
-                // echo'<td>';
-                // echo'</td>';
             }
 
         ?>
