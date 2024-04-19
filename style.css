@@ -72,6 +72,11 @@ body {
 }
 #containerInscription{
     padding-top: 100px;
+    border: white 2px solid;
+    padding: 5px;
+    height: 50%;
+    border-radius: 10px;
+    margin-top: 50px;
 }
 .renseignement{
     color: #FFCC01;
@@ -124,4 +129,38 @@ body {
     margin-left: 100px;
     cursor: pointer;
     font-size: 15px;
+}
+#buttonConnect{
+    background-color: #D75655;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+#buttonConnect:hover{
+    background-color: #F9A97F;
+}
+
+#containerButtonConnect{
+    display: flex;
+    justify-content: center;
+}
+#styleGo{
+    background-color: #A22429;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: black 2px solid;
+    border-radius: 30px;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 125px;
+}
+#styleGo:hover {
+    background-color: #0D9BCD;
 }
