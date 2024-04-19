@@ -164,3 +164,24 @@ body {
 #styleGo:hover {
     background-color: #0D9BCD;
 }
+#containerPokemon2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+#containerImgPokemon2 {
+    border: 3px #006DB3 solid;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    cursor: pointer;
+}
+#containerImgPokemon2:hover{
+    border: #FFFF00 3px solid;
+}
+#imgPokemonEquipe {
+    height: 100px;
+}
